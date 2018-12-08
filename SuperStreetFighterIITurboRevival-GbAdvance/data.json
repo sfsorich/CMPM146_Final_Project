@@ -1,0 +1,32 @@
+{
+  "info": {
+    "health-p1": {
+      "address": 50357442,
+      "type": "<u2"
+    },
+    "health-p2": {
+      "address": 50358482,
+      "type": "<u2"
+    },
+    "timer": {
+      "address": 50340435,
+      "type": ">u2"
+    },
+    "x-p1": {
+      "address": 50357262,
+      "type": "<u2"
+    },
+    "x-p2": {
+      "address": 50358302,
+      "type": "<u2"
+    },
+    "y-p1": {
+      "address": 50357266,
+      "type": "<u2"
+    },
+    "y-p2": {
+      "address": 50358306,
+      "type": "<u2"
+    }
+  }
+}
