@@ -27,6 +27,22 @@
     "y-p2": {
       "address": 50358306,
       "type": "<u2"
+    },
+    "wins-p1": {
+      "address": 50358140,
+      "type": "<u1"
+    },
+    "wins-p2": {
+      "address": 50359180,
+      "type": "<u1"
+    },
+    "state-p1": {
+      "address": 50357232,
+      "type": "<u1"
+    },
+    "state-p2": {
+      "address": 50358272,
+      "type": "<u1"
     }
   }
 }

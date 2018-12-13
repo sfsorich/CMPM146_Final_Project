@@ -1,0 +1,38 @@
+{
+  "done": {
+    "variables": {
+      "wins-p1": {
+        "op": "equal",
+        "reference": 2
+      },
+      "wins-p2": {
+        "op": "equal",
+        "reference": 2
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "health-p2": {
+        "op": "less-than",
+        "reference": "health-p1",
+        "reward": 5.0
+      },
+      "health-p1": {
+        "op": "less-than",
+        "reference": "health-p2",
+        "penalty": 7.5
+      },
+      "wins-p1": {
+        "op": "equal",
+        "reference": 2.0,
+        "reward": 10.0
+      },
+      "wins-p2": {
+        "op": "equal",
+        "reference": 2.0,
+        "penalty": 7.5
+      }
+    }
+  }
+}
